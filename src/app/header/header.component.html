@@ -1,0 +1,29 @@
+<section>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="">
+      <a href="" class="container" >
+      <img src="assets\recursos\A-64.png" height="30" width="30">
+      </a>
+    </div>
+    <div class="container-fluid bg-dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" [routerLink]="['/heroes']"  href="#">Héroes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-white">About</a>
+            </li>
+          </ul>
+          <form class="d-flex text-white" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success text-white"  type="submit">Search</button>
+          </form>
+    </div>
+  </nav>
+</section>
