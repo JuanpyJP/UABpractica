@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
-import { ComunesComponent } from './comunes/comunes.component';
 import { HeroeComponent } from './comunes/heroe/heroe.component';
 import { HeroesComponent } from './comunes/heroes/heroes.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +16,9 @@ import { HeroesComponent } from './comunes/heroes/heroes.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    ComunesComponent,
     HeroeComponent,
-    HeroesComponent
+    HeroesComponent,
+    BusquedaComponent,
   ],
   imports: [
     BrowserModule,
